@@ -77,14 +77,14 @@
 
         <div class="order-1 lg:order-2 relative">
             <div class="relative rounded-[2rem] overflow-hidden shadow-xl group">
-                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=2070&auto=format&fit=crop" 
+                <img src="{{ asset('umkm/gulaaren.jpg') }}"
                      alt="Coffee" 
                      loading="lazy"
                      class="w-full h-[450px] object-cover transition-transform duration-700 group-hover:scale-105">
                 
                 <div class="absolute bottom-4 left-4 bg-white/80 backdrop-blur-md p-4 rounded-2xl border border-white/50 shadow-sm max-w-[200px]">
                     <p class="text-[10px] font-black text-orange-600 uppercase mb-1">Our Favorite</p>
-                    <h3 class="text-sm font-bold text-gray-900 leading-tight">Cold Brew Macchiato</h3>
+                    <h3 class="text-sm font-bold text-gray-900 leading-tight">Es Kopi Gula Aren</h3>
                 </div>
             </div>
 
